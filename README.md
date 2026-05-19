@@ -16,7 +16,7 @@ Test the app directly without local setup!
 
 ---
 
-![MindBridge Banner](static\banner.png)
+![MindBridge Banner](https://github.com/mohammed97ashraf/MindBridge/blob/main/static/banner.png)
 
 ---
 
@@ -239,7 +239,7 @@ Logs rotate daily and are retained for 30 days in the `logs/` directory.
 
 ### Results Visualization
 
-![MindBridge Results Graph](static\The Graph.png)
+![MindBridge Results Graph](https://github.com/mohammed97ashraf/MindBridge/blob/main/static/The%20Graph.png)
 
 ---
 

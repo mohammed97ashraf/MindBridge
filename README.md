@@ -8,6 +8,18 @@ MindBridge is a conversational mental health screening tool that replaces static
 
 ---
 
+## Try Online
+
+**Demo:** [https://mindbridge-demo.streamlit.app/](https://mindbridge-demo.streamlit.app/)
+
+Test the app directly without local setup!
+
+---
+
+![MindBridge Banner](static\banner.png)
+
+---
+
 ## Features
 
 - **Adaptive intake** — Mira, a warm AI coordinator, asks 5–6 questions before triaging to the right test
@@ -41,7 +53,8 @@ MindBridge is a conversational mental health screening tool that replaces static
 MindBridge/
 ├── .streamlit/
 │   └── config.toml          # Dark theme + server config
-├── assets/                  # Drop favicon.ico here
+├── assets/                  # Drop favicon.ico, banner.png, and graph.png here
+│   ├── favicon.ico          # Website favicon
 ├── backend/
 │   ├── __init__.py          # Installs global exception hook
 │   ├── logger.py            # get_logger() — daily rotation, 30-day retention
@@ -223,6 +236,20 @@ Logs rotate daily and are retained for 30 days in the `logs/` directory.
 | PHQ-9 | Depression | 9 | 0–3 | Past 2 weeks |
 | PSS-10 | Perceived Stress | 10 | 0–4 | Past 30 days |
 | TAWS-16 | Work Stress (Indian workforce) | 16 | 0–4 | Past 6 months |
+
+### Results Visualization
+
+![MindBridge Results Graph](static\The Graph.png)
+
+---
+
+---
+
+## Learn More
+
+📖 **Full Technical Documentation & Blog:** [Read the complete details](https://medium.com/@mohammed97ashraf/evaluating-the-psychometric-validity-and-user-engagement-of-llm-driven-adaptive-mental-health-6bebb827aa7a)
+
+Learn about the research, validation methodology, and deeper insights into MindBridge's design.
 
 ---
 
